@@ -1,0 +1,16 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="avatarbg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#42a5f5"/>
+      <stop offset="100%" stop-color="#1976d2"/>
+    </radialGradient>
+    <radialGradient id="avatarglow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00e0ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1976d2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="110" fill="url(#avatarbg)" />
+  <ellipse cx="128" cy="128" rx="118" ry="118" fill="url(#avatarglow)" />
+  <circle cx="128" cy="128" r="120" stroke="#fff" stroke-width="3" fill="none" opacity="0.25"/>
+  <text x="50%" y="54%" text-anchor="middle" font-size="92" font-family="Segoe UI, Arial, sans-serif" fill="#fff" font-weight="bold" style="dominant-baseline: middle;">6丝</text>
+</svg>
